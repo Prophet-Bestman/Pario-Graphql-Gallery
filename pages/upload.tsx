@@ -77,6 +77,7 @@ const UploadPage = () => {
             error={errors?.title?.message}
             placeholder="Title"
             label="Title"
+            maxLength={30}
           />
           <Input
             type="textArea"
@@ -85,7 +86,7 @@ const UploadPage = () => {
             error={errors?.caption?.message}
             placeholder="Some caption"
             label="Caption"
-            maxLength={40}
+            maxLength={50}
           />
 
           <Button onClick={handleSubmit(handleUploadImg)} className="w-full">

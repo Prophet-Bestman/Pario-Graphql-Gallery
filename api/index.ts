@@ -135,7 +135,7 @@ export const usePostToGallery = () => {
     },
     {
       onSuccess: () => {
-        router.push("/");
+        router.push("/my-gallery");
       },
     }
   );

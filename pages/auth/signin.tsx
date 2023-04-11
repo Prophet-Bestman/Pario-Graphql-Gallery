@@ -80,7 +80,7 @@ const Signin = () => {
 
             <div>
               <Button type="submit" variant="solid" className="w-full">
-                {loading ? "Signing..." : "Sign Up"}
+                {loading ? "Signing..." : "Sign In"}
               </Button>
 
               <div className="text-center ">
